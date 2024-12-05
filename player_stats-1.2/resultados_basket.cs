@@ -16,6 +16,7 @@ namespace player_stats_1._2
         public resultados_basket(Estadisticas_basket estadisticas)
         {
             InitializeComponent();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             txtnombre.Text = estadisticas.Nombre;
             txtnombre_equipo.Text = estadisticas.Nombre_equipo;
             txtnumero_jugador.Text = estadisticas.Numero_jugador.ToString();

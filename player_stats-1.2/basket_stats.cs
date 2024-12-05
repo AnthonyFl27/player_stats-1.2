@@ -12,8 +12,11 @@ namespace player_stats_1._2
         public basket_stats()
         {
             InitializeComponent();
+
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         }
 
+        // mostrar estadisticas
         private void button3_Click(object sender, EventArgs e)
         {
             if (estadisticas_basket != null)
@@ -28,6 +31,7 @@ namespace player_stats_1._2
             }
         }
 
+        // le damos sus ordenes al btn de calcular 
         private void btncalcular_datos_Click(object sender, EventArgs e)
         {
             try
@@ -106,6 +110,7 @@ namespace player_stats_1._2
             }
         }
 
+        // clase para almacenar las estadisticas de basket 
         public class Estadisticas_basket
         {
             public string Nombre { get; set; }
@@ -147,6 +152,8 @@ namespace player_stats_1._2
             }
         }
 
+
+        // btn para salir del programa con un messagebox de confirmacion 
         private void btnsalir_programa_Click(object sender, EventArgs e)
         {
             DialogResult resultado = MessageBox.Show("¿Está seguro que desea salir?", "Confirmar salida", MessageBoxButtons.YesNo);
@@ -155,7 +162,8 @@ namespace player_stats_1._2
                 Application.Exit();
             }
         }
-
+        
+        // btn para guardar en archivo los resultados del jugador 
         private void btnguardar_archivo_Click(object sender, EventArgs e)
         {
             // Mostrar un cuadro de diálogo para confirmar si se desea guardar
@@ -168,14 +176,18 @@ namespace player_stats_1._2
             }
         }
 
+        // funcion para que el programa guarde los resultados 
         private void guardar_resultados_archivo ()
         {
+
+            // verificacion de estadisticas 
             if (estadisticas_basket == null)
             {
                 MessageBox.Show("No hay estadísticas disponibles para guardar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
+            // esto sera lo que ira en el archivo 
             string contenido = $"Nombre: {estadisticas_basket.Nombre}\n" +
                        $"Nombre del equipo: {estadisticas_basket.Nombre_equipo}\n" +
                        $"Numero del jugador: {estadisticas_basket.Numero_jugador}\n" +
@@ -186,12 +198,15 @@ namespace player_stats_1._2
                        $"Rebotes Totales: {estadisticas_basket.Rebotes_totales_jugador}\n" +
                        $"Eficiencia de Tiro: {estadisticas_basket.Porcentaje_eficiencia_de_tiro:F2}%\n";
 
+            // el guardado del archivo, dandole el formato y preguntandonos en que lugar lo guardaremos 
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
                 saveFileDialog.Filter = "Archivos de texto (*.txt)|*.txt|Todos los archivos (*.*)|*.*";
                 saveFileDialog.Title = "Guardar Resultados";
                 saveFileDialog.FileName = "ResultadosJugador.txt"; // Nombre por defecto
 
+
+                // guardado de resultados 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     try
@@ -211,6 +226,8 @@ namespace player_stats_1._2
             }
         }
 
+
+        // un poco del menu strip y un mensaje de instrucciones 
         private void usoDelProgramaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // Mostrar un cuadro de diálogo con instrucciones sobre cómo usar el programa
@@ -238,6 +255,7 @@ namespace player_stats_1._2
             MessageBox.Show(mensaje, "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        // guardar en archivo desde el menu strip 
         private void guardarEnArchivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult resultado = MessageBox.Show("¿Desea guardar los resultados en un archivo?", "Guardar Resultados", MessageBoxButtons.YesNo);
@@ -249,9 +267,16 @@ namespace player_stats_1._2
             }
         }
 
+
+        // salir del programa desde menu strip 
         private void salirDelProgramaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void basket_stats_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
