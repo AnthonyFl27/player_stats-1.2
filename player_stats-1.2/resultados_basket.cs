@@ -50,5 +50,10 @@ namespace player_stats_1._2
             basket_stats nuevo_jugador_form = new basket_stats();
             nuevo_jugador_form.ShowDialog();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

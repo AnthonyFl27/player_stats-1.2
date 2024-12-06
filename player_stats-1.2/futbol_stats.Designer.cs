@@ -102,7 +102,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(49, 111);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1101, 230);
+            this.groupBox1.Size = new System.Drawing.Size(1101, 193);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
@@ -110,7 +110,7 @@
             // 
             this.txtnumero_jugador.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtnumero_jugador.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnumero_jugador.Location = new System.Drawing.Point(850, 164);
+            this.txtnumero_jugador.Location = new System.Drawing.Point(850, 137);
             this.txtnumero_jugador.Name = "txtnumero_jugador";
             this.txtnumero_jugador.Size = new System.Drawing.Size(178, 29);
             this.txtnumero_jugador.TabIndex = 11;
@@ -119,7 +119,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(580, 170);
+            this.label12.Location = new System.Drawing.Point(538, 143);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(254, 23);
             this.label12.TabIndex = 10;
@@ -129,7 +129,7 @@
             // 
             this.txtposicion_jugador.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtposicion_jugador.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtposicion_jugador.Location = new System.Drawing.Point(850, 104);
+            this.txtposicion_jugador.Location = new System.Drawing.Point(850, 81);
             this.txtposicion_jugador.Name = "txtposicion_jugador";
             this.txtposicion_jugador.Size = new System.Drawing.Size(178, 29);
             this.txtposicion_jugador.TabIndex = 9;
@@ -138,7 +138,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(580, 110);
+            this.label11.Location = new System.Drawing.Point(538, 87);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(261, 23);
             this.label11.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             this.txtnombre_equipo.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtnombre_equipo.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre_equipo.Location = new System.Drawing.Point(850, 43);
+            this.txtnombre_equipo.Location = new System.Drawing.Point(850, 28);
             this.txtnombre_equipo.Name = "txtnombre_equipo";
             this.txtnombre_equipo.Size = new System.Drawing.Size(178, 29);
             this.txtnombre_equipo.TabIndex = 7;
@@ -157,7 +157,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(580, 49);
+            this.label10.Location = new System.Drawing.Point(543, 37);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(249, 23);
             this.label10.TabIndex = 6;
@@ -167,7 +167,7 @@
             // 
             this.txtpartidos_jugados.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtpartidos_jugados.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpartidos_jugados.Location = new System.Drawing.Point(305, 107);
+            this.txtpartidos_jugados.Location = new System.Drawing.Point(305, 87);
             this.txtpartidos_jugados.Name = "txtpartidos_jugados";
             this.txtpartidos_jugados.Size = new System.Drawing.Size(178, 29);
             this.txtpartidos_jugados.TabIndex = 5;
@@ -176,7 +176,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 113);
+            this.label4.Location = new System.Drawing.Point(19, 93);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(229, 23);
             this.label4.TabIndex = 4;
@@ -186,7 +186,7 @@
             // 
             this.txtgoles_anotados.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtgoles_anotados.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtgoles_anotados.Location = new System.Drawing.Point(305, 170);
+            this.txtgoles_anotados.Location = new System.Drawing.Point(305, 143);
             this.txtgoles_anotados.Name = "txtgoles_anotados";
             this.txtgoles_anotados.Size = new System.Drawing.Size(178, 29);
             this.txtgoles_anotados.TabIndex = 3;
@@ -195,7 +195,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 173);
+            this.label3.Location = new System.Drawing.Point(19, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(260, 23);
             this.label3.TabIndex = 2;
@@ -205,7 +205,7 @@
             // 
             this.txtnombre_jugador.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtnombre_jugador.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre_jugador.Location = new System.Drawing.Point(305, 49);
+            this.txtnombre_jugador.Location = new System.Drawing.Point(305, 37);
             this.txtnombre_jugador.Name = "txtnombre_jugador";
             this.txtnombre_jugador.Size = new System.Drawing.Size(178, 29);
             this.txtnombre_jugador.TabIndex = 1;
@@ -214,7 +214,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 55);
+            this.label2.Location = new System.Drawing.Point(19, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(254, 23);
             this.label2.TabIndex = 0;
@@ -234,10 +234,10 @@
             this.groupBox2.Controls.Add(this.txtfaltas_cometidas);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(49, 398);
+            this.groupBox2.Location = new System.Drawing.Point(49, 325);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox2.Size = new System.Drawing.Size(602, 388);
+            this.groupBox2.Size = new System.Drawing.Size(602, 306);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.UseWaitCursor = true;
@@ -246,7 +246,7 @@
             // 
             this.txtasistencias.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtasistencias.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtasistencias.Location = new System.Drawing.Point(326, 41);
+            this.txtasistencias.Location = new System.Drawing.Point(326, 38);
             this.txtasistencias.Name = "txtasistencias";
             this.txtasistencias.Size = new System.Drawing.Size(178, 29);
             this.txtasistencias.TabIndex = 12;
@@ -267,7 +267,7 @@
             // 
             this.txtminutos_jugados.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtminutos_jugados.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtminutos_jugados.Location = new System.Drawing.Point(326, 322);
+            this.txtminutos_jugados.Location = new System.Drawing.Point(326, 238);
             this.txtminutos_jugados.Name = "txtminutos_jugados";
             this.txtminutos_jugados.Size = new System.Drawing.Size(178, 29);
             this.txtminutos_jugados.TabIndex = 10;
@@ -277,7 +277,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(33, 328);
+            this.label8.Location = new System.Drawing.Point(33, 241);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(270, 23);
             this.label8.TabIndex = 9;
@@ -288,7 +288,7 @@
             // 
             this.txttarjetas_rojas.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txttarjetas_rojas.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttarjetas_rojas.Location = new System.Drawing.Point(326, 246);
+            this.txttarjetas_rojas.Location = new System.Drawing.Point(326, 188);
             this.txttarjetas_rojas.Name = "txttarjetas_rojas";
             this.txttarjetas_rojas.Size = new System.Drawing.Size(178, 29);
             this.txttarjetas_rojas.TabIndex = 8;
@@ -298,7 +298,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(34, 252);
+            this.label7.Location = new System.Drawing.Point(37, 188);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(236, 23);
             this.label7.TabIndex = 7;
@@ -309,7 +309,7 @@
             // 
             this.txttarjetas_amarillas.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txttarjetas_amarillas.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttarjetas_amarillas.Location = new System.Drawing.Point(326, 173);
+            this.txttarjetas_amarillas.Location = new System.Drawing.Point(326, 141);
             this.txttarjetas_amarillas.Name = "txttarjetas_amarillas";
             this.txttarjetas_amarillas.Size = new System.Drawing.Size(178, 29);
             this.txttarjetas_amarillas.TabIndex = 6;
@@ -319,7 +319,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(33, 176);
+            this.label6.Location = new System.Drawing.Point(33, 141);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(275, 23);
             this.label6.TabIndex = 5;
@@ -330,7 +330,7 @@
             // 
             this.txtfaltas_cometidas.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtfaltas_cometidas.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfaltas_cometidas.Location = new System.Drawing.Point(326, 97);
+            this.txtfaltas_cometidas.Location = new System.Drawing.Point(326, 86);
             this.txtfaltas_cometidas.Name = "txtfaltas_cometidas";
             this.txtfaltas_cometidas.Size = new System.Drawing.Size(178, 29);
             this.txtfaltas_cometidas.TabIndex = 4;
@@ -340,7 +340,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 103);
+            this.label5.Location = new System.Drawing.Point(34, 89);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(269, 23);
             this.label5.TabIndex = 3;
@@ -364,7 +364,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label9.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(850, 372);
+            this.label9.Location = new System.Drawing.Point(825, 325);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(295, 37);
             this.label9.TabIndex = 8;
@@ -377,7 +377,7 @@
             this.groupBox3.Controls.Add(this.btnguardar_en_archivo);
             this.groupBox3.Controls.Add(this.btnmostrar_datos);
             this.groupBox3.Controls.Add(this.btncalcular);
-            this.groupBox3.Location = new System.Drawing.Point(767, 444);
+            this.groupBox3.Location = new System.Drawing.Point(740, 371);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(493, 342);
             this.groupBox3.TabIndex = 9;
@@ -481,7 +481,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1332, 836);
+            this.ClientSize = new System.Drawing.Size(1332, 735);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox2);

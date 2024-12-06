@@ -70,11 +70,12 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(225, 70);
+            this.label1.Location = new System.Drawing.Point(161, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(391, 37);
             this.label1.TabIndex = 3;
             this.label1.Text = "Resultados Basket Stats";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -95,16 +96,16 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtnombre);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(98, 131);
+            this.groupBox1.Location = new System.Drawing.Point(71, 72);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(642, 426);
+            this.groupBox1.Size = new System.Drawing.Size(580, 348);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
             // txtnumero_jugador
             // 
             this.txtnumero_jugador.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnumero_jugador.Location = new System.Drawing.Point(417, 106);
+            this.txtnumero_jugador.Location = new System.Drawing.Point(417, 74);
             this.txtnumero_jugador.Name = "txtnumero_jugador";
             this.txtnumero_jugador.Size = new System.Drawing.Size(121, 29);
             this.txtnumero_jugador.TabIndex = 15;
@@ -112,17 +113,17 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(320, 111);
+            this.label13.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(320, 77);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 24);
+            this.label13.Size = new System.Drawing.Size(85, 23);
             this.label13.TabIndex = 14;
             this.label13.Text = "Número:";
             // 
             // txtposicion_jugador
             // 
             this.txtposicion_jugador.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtposicion_jugador.Location = new System.Drawing.Point(152, 111);
+            this.txtposicion_jugador.Location = new System.Drawing.Point(142, 71);
             this.txtposicion_jugador.Name = "txtposicion_jugador";
             this.txtposicion_jugador.Size = new System.Drawing.Size(150, 29);
             this.txtposicion_jugador.TabIndex = 13;
@@ -130,17 +131,17 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(33, 113);
+            this.label12.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(33, 77);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(98, 24);
+            this.label12.Size = new System.Drawing.Size(91, 23);
             this.label12.TabIndex = 12;
             this.label12.Text = "Posición:";
             // 
             // txtnombre_equipo
             // 
             this.txtnombre_equipo.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre_equipo.Location = new System.Drawing.Point(417, 45);
+            this.txtnombre_equipo.Location = new System.Drawing.Point(417, 23);
             this.txtnombre_equipo.Name = "txtnombre_equipo";
             this.txtnombre_equipo.Size = new System.Drawing.Size(121, 29);
             this.txtnombre_equipo.TabIndex = 11;
@@ -148,17 +149,17 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(320, 47);
+            this.label7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(320, 23);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 24);
+            this.label7.Size = new System.Drawing.Size(77, 23);
             this.label7.TabIndex = 10;
             this.label7.Text = "Equipo:";
             // 
             // txtrebotes_totales
             // 
             this.txtrebotes_totales.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrebotes_totales.Location = new System.Drawing.Point(236, 362);
+            this.txtrebotes_totales.Location = new System.Drawing.Point(234, 297);
             this.txtrebotes_totales.Name = "txtrebotes_totales";
             this.txtrebotes_totales.Size = new System.Drawing.Size(121, 29);
             this.txtrebotes_totales.TabIndex = 9;
@@ -166,17 +167,17 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(47, 367);
+            this.label6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(33, 300);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 24);
+            this.label6.Size = new System.Drawing.Size(151, 23);
             this.label6.TabIndex = 8;
             this.label6.Text = "Rebotes totales:";
             // 
             // txttiro_libre_calculado
             // 
             this.txttiro_libre_calculado.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiro_libre_calculado.Location = new System.Drawing.Point(417, 290);
+            this.txttiro_libre_calculado.Location = new System.Drawing.Point(417, 241);
             this.txttiro_libre_calculado.Name = "txttiro_libre_calculado";
             this.txttiro_libre_calculado.Size = new System.Drawing.Size(121, 29);
             this.txttiro_libre_calculado.TabIndex = 7;
@@ -184,17 +185,17 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(47, 295);
+            this.label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(25, 247);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(328, 24);
+            this.label5.Size = new System.Drawing.Size(300, 23);
             this.label5.TabIndex = 6;
             this.label5.Text = "Porcentaje de tiro libre calculado:";
             // 
             // txttiro_3_calculado
             // 
             this.txttiro_3_calculado.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiro_3_calculado.Location = new System.Drawing.Point(417, 243);
+            this.txttiro_3_calculado.Location = new System.Drawing.Point(417, 189);
             this.txttiro_3_calculado.Name = "txttiro_3_calculado";
             this.txttiro_3_calculado.Size = new System.Drawing.Size(121, 29);
             this.txttiro_3_calculado.TabIndex = 5;
@@ -202,17 +203,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(47, 248);
+            this.label4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(25, 192);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(329, 24);
+            this.label4.Size = new System.Drawing.Size(300, 23);
             this.label4.TabIndex = 4;
             this.label4.Text = "Porcentaje de tiro de 3 calculado:";
             // 
             // txttiro_calculado
             // 
             this.txttiro_calculado.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiro_calculado.Location = new System.Drawing.Point(417, 192);
+            this.txttiro_calculado.Location = new System.Drawing.Point(417, 141);
             this.txttiro_calculado.Name = "txttiro_calculado";
             this.txttiro_calculado.Size = new System.Drawing.Size(121, 29);
             this.txttiro_calculado.TabIndex = 3;
@@ -220,17 +221,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(47, 197);
+            this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(25, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(281, 24);
+            this.label3.Size = new System.Drawing.Size(257, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Porcentaje de tiro calculado:";
             // 
             // txtnombre
             // 
             this.txtnombre.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre.Location = new System.Drawing.Point(152, 45);
+            this.txtnombre.Location = new System.Drawing.Point(142, 23);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(150, 29);
             this.txtnombre.TabIndex = 1;
@@ -238,10 +239,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 50);
+            this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(33, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 24);
+            this.label2.Size = new System.Drawing.Size(103, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "El jugador:";
             // 
@@ -256,16 +257,16 @@
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Location = new System.Drawing.Point(98, 605);
+            this.groupBox2.Location = new System.Drawing.Point(108, 436);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(642, 222);
+            this.groupBox2.Size = new System.Drawing.Size(518, 206);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
             // txteficiencia_general
             // 
             this.txteficiencia_general.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txteficiencia_general.Location = new System.Drawing.Point(397, 168);
+            this.txteficiencia_general.Location = new System.Drawing.Point(372, 142);
             this.txteficiencia_general.Name = "txteficiencia_general";
             this.txteficiencia_general.Size = new System.Drawing.Size(121, 29);
             this.txteficiencia_general.TabIndex = 16;
@@ -273,7 +274,7 @@
             // txteficiencia_tiro
             // 
             this.txteficiencia_tiro.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txteficiencia_tiro.Location = new System.Drawing.Point(397, 130);
+            this.txteficiencia_tiro.Location = new System.Drawing.Point(372, 99);
             this.txteficiencia_tiro.Name = "txteficiencia_tiro";
             this.txteficiencia_tiro.Size = new System.Drawing.Size(121, 29);
             this.txteficiencia_tiro.TabIndex = 15;
@@ -281,7 +282,7 @@
             // txttotal_tiros_intentados
             // 
             this.txttotal_tiros_intentados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttotal_tiros_intentados.Location = new System.Drawing.Point(397, 86);
+            this.txttotal_tiros_intentados.Location = new System.Drawing.Point(372, 58);
             this.txttotal_tiros_intentados.Name = "txttotal_tiros_intentados";
             this.txttotal_tiros_intentados.Size = new System.Drawing.Size(121, 29);
             this.txttotal_tiros_intentados.TabIndex = 14;
@@ -289,7 +290,7 @@
             // txtpuntos_totales
             // 
             this.txtpuntos_totales.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpuntos_totales.Location = new System.Drawing.Point(397, 40);
+            this.txtpuntos_totales.Location = new System.Drawing.Point(372, 19);
             this.txtpuntos_totales.Name = "txtpuntos_totales";
             this.txtpuntos_totales.Size = new System.Drawing.Size(121, 29);
             this.txtpuntos_totales.TabIndex = 13;
@@ -297,40 +298,40 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(18, 173);
+            this.label11.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(18, 142);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(323, 24);
+            this.label11.Size = new System.Drawing.Size(295, 23);
             this.label11.TabIndex = 12;
             this.label11.Text = "Porcentaje en eficiencia general:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(18, 132);
+            this.label10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(18, 102);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(310, 24);
+            this.label10.Size = new System.Drawing.Size(283, 23);
             this.label10.TabIndex = 11;
             this.label10.Text = "Porcentaje en eficiencia de tiro:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(18, 88);
+            this.label9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(18, 58);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(236, 24);
+            this.label9.Size = new System.Drawing.Size(218, 23);
             this.label9.TabIndex = 10;
             this.label9.Text = "Tiros totales intentados:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(18, 45);
+            this.label8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(18, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(244, 24);
+            this.label8.Size = new System.Drawing.Size(225, 23);
             this.label8.TabIndex = 9;
             this.label8.Text = "Puntos totales anotados:";
             // 
@@ -339,7 +340,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(289, 851);
+            this.label18.Location = new System.Drawing.Point(226, 655);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(250, 31);
             this.label18.TabIndex = 11;
@@ -350,7 +351,7 @@
             this.groupBox3.BackColor = System.Drawing.Color.SandyBrown;
             this.groupBox3.Controls.Add(this.btnsalir_del_programa);
             this.groupBox3.Controls.Add(this.btningresar_nuevo_jugador);
-            this.groupBox3.Location = new System.Drawing.Point(232, 901);
+            this.groupBox3.Location = new System.Drawing.Point(168, 701);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(364, 163);
             this.groupBox3.TabIndex = 12;
@@ -385,7 +386,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(897, 1131);
+            this.ClientSize = new System.Drawing.Size(754, 897);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.groupBox2);

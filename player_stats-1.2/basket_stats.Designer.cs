@@ -95,7 +95,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 79);
+            this.label1.Location = new System.Drawing.Point(55, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(267, 37);
             this.label1.TabIndex = 2;
@@ -117,7 +117,7 @@
             this.groupBox1.Controls.Add(this.txtnombre_jugador);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(42, 139);
+            this.groupBox1.Location = new System.Drawing.Point(42, 95);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(568, 345);
             this.groupBox1.TabIndex = 3;
@@ -260,9 +260,9 @@
             this.groupBox2.Controls.Add(this.txttiros_anotados);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(42, 607);
+            this.groupBox2.Location = new System.Drawing.Point(33, 497);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(634, 227);
+            this.groupBox2.Size = new System.Drawing.Size(634, 182);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tiros";
@@ -271,7 +271,7 @@
             // 
             this.txttiros_3_intentados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_3_intentados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_3_intentados.Location = new System.Drawing.Point(535, 165);
+            this.txttiros_3_intentados.Location = new System.Drawing.Point(535, 129);
             this.txttiros_3_intentados.Name = "txttiros_3_intentados";
             this.txttiros_3_intentados.Size = new System.Drawing.Size(89, 29);
             this.txttiros_3_intentados.TabIndex = 11;
@@ -280,7 +280,7 @@
             // 
             this.txttiros_3_anotados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_3_anotados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_3_anotados.Location = new System.Drawing.Point(217, 165);
+            this.txttiros_3_anotados.Location = new System.Drawing.Point(217, 129);
             this.txttiros_3_anotados.Name = "txttiros_3_anotados";
             this.txttiros_3_anotados.Size = new System.Drawing.Size(87, 29);
             this.txttiros_3_anotados.TabIndex = 10;
@@ -289,7 +289,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(321, 107);
+            this.label10.Location = new System.Drawing.Point(321, 84);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(208, 23);
             this.label10.TabIndex = 9;
@@ -299,7 +299,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(8, 107);
+            this.label9.Location = new System.Drawing.Point(8, 84);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(198, 23);
             this.label9.TabIndex = 8;
@@ -309,7 +309,7 @@
             // 
             this.txttiros_libres_intentados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_libres_intentados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_libres_intentados.Location = new System.Drawing.Point(535, 104);
+            this.txttiros_libres_intentados.Location = new System.Drawing.Point(535, 78);
             this.txttiros_libres_intentados.Name = "txttiros_libres_intentados";
             this.txttiros_libres_intentados.Size = new System.Drawing.Size(89, 29);
             this.txttiros_libres_intentados.TabIndex = 7;
@@ -318,7 +318,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(321, 171);
+            this.label8.Location = new System.Drawing.Point(321, 135);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(198, 23);
             this.label8.TabIndex = 6;
@@ -328,7 +328,7 @@
             // 
             this.txttiros_libres_anotados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_libres_anotados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_libres_anotados.Location = new System.Drawing.Point(217, 104);
+            this.txttiros_libres_anotados.Location = new System.Drawing.Point(217, 78);
             this.txttiros_libres_anotados.Name = "txttiros_libres_anotados";
             this.txttiros_libres_anotados.Size = new System.Drawing.Size(87, 29);
             this.txttiros_libres_anotados.TabIndex = 5;
@@ -337,7 +337,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(8, 171);
+            this.label7.Location = new System.Drawing.Point(8, 129);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(188, 23);
             this.label7.TabIndex = 4;
@@ -347,7 +347,7 @@
             // 
             this.txttiros_intentados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_intentados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_intentados.Location = new System.Drawing.Point(535, 44);
+            this.txttiros_intentados.Location = new System.Drawing.Point(535, 27);
             this.txttiros_intentados.Name = "txttiros_intentados";
             this.txttiros_intentados.Size = new System.Drawing.Size(89, 29);
             this.txttiros_intentados.TabIndex = 3;
@@ -356,7 +356,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(329, 50);
+            this.label6.Location = new System.Drawing.Point(334, 31);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 23);
             this.label6.TabIndex = 2;
@@ -366,7 +366,7 @@
             // 
             this.txttiros_anotados.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txttiros_anotados.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttiros_anotados.Location = new System.Drawing.Point(217, 47);
+            this.txttiros_anotados.Location = new System.Drawing.Point(217, 28);
             this.txttiros_anotados.Name = "txttiros_anotados";
             this.txttiros_anotados.Size = new System.Drawing.Size(87, 29);
             this.txttiros_anotados.TabIndex = 1;
@@ -375,7 +375,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 50);
+            this.label5.Location = new System.Drawing.Point(8, 42);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(145, 23);
             this.label5.TabIndex = 0;
@@ -386,7 +386,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(51, 544);
+            this.label11.Location = new System.Drawing.Point(48, 461);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(325, 31);
             this.label11.TabIndex = 8;
@@ -408,7 +408,7 @@
             this.groupBox3.Controls.Add(this.txtrebotes_ofensivos);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(729, 95);
+            this.groupBox3.Location = new System.Drawing.Point(698, 67);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(353, 357);
             this.groupBox3.TabIndex = 9;
@@ -534,7 +534,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(779, 472);
+            this.label18.Location = new System.Drawing.Point(763, 439);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(250, 31);
             this.label18.TabIndex = 10;
@@ -547,9 +547,9 @@
             this.groupBox4.Controls.Add(this.btnguardar_archivo);
             this.groupBox4.Controls.Add(this.btnmostrar_datos);
             this.groupBox4.Controls.Add(this.btncalcular_datos);
-            this.groupBox4.Location = new System.Drawing.Point(752, 526);
+            this.groupBox4.Location = new System.Drawing.Point(725, 484);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(311, 321);
+            this.groupBox4.Size = new System.Drawing.Size(311, 257);
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
             // 
@@ -557,7 +557,7 @@
             // 
             this.btnsalir_programa.BackColor = System.Drawing.Color.Silver;
             this.btnsalir_programa.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir_programa.Location = new System.Drawing.Point(45, 242);
+            this.btnsalir_programa.Location = new System.Drawing.Point(45, 189);
             this.btnsalir_programa.Name = "btnsalir_programa";
             this.btnsalir_programa.Size = new System.Drawing.Size(216, 60);
             this.btnsalir_programa.TabIndex = 4;
@@ -569,7 +569,7 @@
             // 
             this.btnguardar_archivo.BackColor = System.Drawing.Color.Silver;
             this.btnguardar_archivo.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardar_archivo.Location = new System.Drawing.Point(45, 171);
+            this.btnguardar_archivo.Location = new System.Drawing.Point(45, 127);
             this.btnguardar_archivo.Name = "btnguardar_archivo";
             this.btnguardar_archivo.Size = new System.Drawing.Size(216, 56);
             this.btnguardar_archivo.TabIndex = 3;
@@ -581,7 +581,7 @@
             // 
             this.btnmostrar_datos.BackColor = System.Drawing.Color.Silver;
             this.btnmostrar_datos.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmostrar_datos.Location = new System.Drawing.Point(45, 99);
+            this.btnmostrar_datos.Location = new System.Drawing.Point(45, 66);
             this.btnmostrar_datos.Name = "btnmostrar_datos";
             this.btnmostrar_datos.Size = new System.Drawing.Size(216, 55);
             this.btnmostrar_datos.TabIndex = 2;
@@ -593,7 +593,7 @@
             // 
             this.btncalcular_datos.BackColor = System.Drawing.Color.Silver;
             this.btncalcular_datos.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular_datos.Location = new System.Drawing.Point(45, 31);
+            this.btncalcular_datos.Location = new System.Drawing.Point(45, 13);
             this.btncalcular_datos.Name = "btncalcular_datos";
             this.btncalcular_datos.Size = new System.Drawing.Size(216, 47);
             this.btncalcular_datos.TabIndex = 1;
@@ -608,7 +608,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1159, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1108, 24);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -663,7 +663,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1159, 883);
+            this.ClientSize = new System.Drawing.Size(1108, 767);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.groupBox3);
