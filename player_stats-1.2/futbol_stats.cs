@@ -130,7 +130,9 @@ namespace player_stats_1._2
 
         private void btnsalir_del_programa_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Form1 form = new Form1();
+            form.Show();
+            this.Close();
         }
 
         private void btnguardar_en_archivo_Click(object sender, EventArgs e)

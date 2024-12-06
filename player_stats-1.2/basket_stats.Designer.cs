@@ -561,7 +561,7 @@
             this.btnsalir_programa.Name = "btnsalir_programa";
             this.btnsalir_programa.Size = new System.Drawing.Size(216, 60);
             this.btnsalir_programa.TabIndex = 4;
-            this.btnsalir_programa.Text = "Salir del programa";
+            this.btnsalir_programa.Text = "Regresar al principal";
             this.btnsalir_programa.UseVisualStyleBackColor = false;
             this.btnsalir_programa.Click += new System.EventHandler(this.btnsalir_programa_Click);
             // 

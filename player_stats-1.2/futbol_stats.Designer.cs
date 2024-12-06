@@ -391,7 +391,7 @@
             this.btnsalir_del_programa.Name = "btnsalir_del_programa";
             this.btnsalir_del_programa.Size = new System.Drawing.Size(260, 70);
             this.btnsalir_del_programa.TabIndex = 10;
-            this.btnsalir_del_programa.Text = "Salir del programa";
+            this.btnsalir_del_programa.Text = "Regresar al principal";
             this.btnsalir_del_programa.UseVisualStyleBackColor = false;
             this.btnsalir_del_programa.Click += new System.EventHandler(this.btnsalir_del_programa_Click);
             // 
@@ -442,14 +442,14 @@
             // guardarEnArchivoToolStripMenuItem
             // 
             this.guardarEnArchivoToolStripMenuItem.Name = "guardarEnArchivoToolStripMenuItem";
-            this.guardarEnArchivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.guardarEnArchivoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.guardarEnArchivoToolStripMenuItem.Text = "Guardar en archivo";
             this.guardarEnArchivoToolStripMenuItem.Click += new System.EventHandler(this.guardarEnArchivoToolStripMenuItem_Click);
             // 
             // salirEnProgramaToolStripMenuItem
             // 
             this.salirEnProgramaToolStripMenuItem.Name = "salirEnProgramaToolStripMenuItem";
-            this.salirEnProgramaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirEnProgramaToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.salirEnProgramaToolStripMenuItem.Text = "Salir en programa";
             this.salirEnProgramaToolStripMenuItem.Click += new System.EventHandler(this.salirEnProgramaToolStripMenuItem_Click);
             // 
@@ -465,14 +465,14 @@
             // acercaDeToolStripMenuItem1
             // 
             this.acercaDeToolStripMenuItem1.Name = "acercaDeToolStripMenuItem1";
-            this.acercaDeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
             this.acercaDeToolStripMenuItem1.Text = "Acerca de..";
             this.acercaDeToolStripMenuItem1.Click += new System.EventHandler(this.acercaDeToolStripMenuItem1_Click);
             // 
             // usoDelPrgoraToolStripMenuItem
             // 
             this.usoDelPrgoraToolStripMenuItem.Name = "usoDelPrgoraToolStripMenuItem";
-            this.usoDelPrgoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usoDelPrgoraToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.usoDelPrgoraToolStripMenuItem.Text = "Uso del programa";
             this.usoDelPrgoraToolStripMenuItem.Click += new System.EventHandler(this.usoDelPrgoraToolStripMenuItem_Click);
             // 

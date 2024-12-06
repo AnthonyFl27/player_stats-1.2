@@ -156,11 +156,9 @@ namespace player_stats_1._2
         // btn para salir del programa con un messagebox de confirmacion 
         private void btnsalir_programa_Click(object sender, EventArgs e)
         {
-            DialogResult resultado = MessageBox.Show("¿Está seguro que desea salir?", "Confirmar salida", MessageBoxButtons.YesNo);
-            if (resultado == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            Form1 form = new Form1();
+            form.Show();
+            this.Close();
         }
         
         // btn para guardar en archivo los resultados del jugador 
